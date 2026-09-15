@@ -8,7 +8,7 @@ public class Appointment {
     private String date;
     private String time;
 
-    // Constructor
+    
     public Appointment(int appointmentId, Patient patient, Doctor doctor,
                        String date, String time) {
 
@@ -19,7 +19,7 @@ public class Appointment {
         this.time = time;
     }
 
-    // Getters
+    
     public int getAppointmentId() {
         return appointmentId;
     }
@@ -40,7 +40,7 @@ public class Appointment {
         return time;
     }
 
-    // Display appointment details
+    
     public void displayAppointment() {
 
         System.out.println("Appointment ID: " + appointmentId);
