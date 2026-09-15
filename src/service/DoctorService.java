@@ -7,13 +7,13 @@ public class DoctorService {
 
     private ArrayList<Doctor> doctors = new ArrayList<>();
 
-    // Doctor add karne ke liye
+    
     public void addDoctor(Doctor doctor) {
         doctors.add(doctor);
         System.out.println("Doctor added successfully!");
     }
 
-    // Saare doctors dekhne ke liye
+    
     public void viewDoctors() {
         if (doctors.isEmpty()) {
             System.out.println("No doctors found.");
@@ -26,7 +26,7 @@ public class DoctorService {
         }
     }
 
-    // Doctor ID se dhoondne ke liye
+    
     public Doctor searchDoctor(int doctorId) {
         for (Doctor doctor : doctors) {
             if (doctor.getDoctorId() == doctorId) {
