@@ -5,14 +5,14 @@ public class Person {
     protected int age;
     protected String phone;
 
-    // Constructor
+    
     public Person(String name, int age, String phone) {
         this.name = name;
         this.age = age;
         this.phone = phone;
     }
 
-    // Getters
+    
     public String getName() {
         return name;
     }
@@ -25,7 +25,7 @@ public class Person {
         return phone;
     }
 
-    // Setters
+    
     public void setName(String name) {
         this.name = name;
     }
