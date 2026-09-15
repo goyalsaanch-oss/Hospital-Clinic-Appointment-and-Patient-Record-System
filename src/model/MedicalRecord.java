@@ -8,7 +8,7 @@ public class MedicalRecord {
     private String treatment;
     private String date;
 
-    // Constructor
+    
     public MedicalRecord(int recordId, Patient patient,
                          String diagnosis, String treatment, String date) {
 
@@ -19,7 +19,7 @@ public class MedicalRecord {
         this.date = date;
     }
 
-    // Getters
+    
     public int getRecordId() {
         return recordId;
     }
@@ -40,7 +40,7 @@ public class MedicalRecord {
         return date;
     }
 
-    // Display medical record
+    
     public void displayRecord() {
 
         System.out.println("Record ID: " + recordId);
